@@ -15,7 +15,18 @@ pipeline {
         }    
         stage('Package Application') {
             steps {
-                sh 'zip -r application.zip .'
+                sh 'zip -r college.zip .'
+            }
+        }
+        stage('Copy Package') {
+            steps {
+                sh 'cp application.zip /home/user/ansiblena'
+            }
+        }
+        
+        stage('Run Ansible Playbook') {
+            steps {
+                ansible-playbook /home/user/ansible/phpdeployment.yml
             }
         }
     }

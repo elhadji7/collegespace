@@ -20,7 +20,7 @@ pipeline {
         } 
         stage('Run Ansible Playbook') {
             steps {
-                sh 'ansible-playbook /home/user/ansible/phpdeployment.yml --start-at-task="Unzip application package"'
+                sh 'ansible-playbook /home/user/ansible/phpdeployment.yml'
             }
         }
     }

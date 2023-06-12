@@ -2,12 +2,13 @@ pipeline {
     agent any
     
     stages {
-        stage('Clone') {
+        stage('Récupération du code') {
             steps {
-                git 'https://github.com/elhadji7/collegespace.git'
+                git branch: 'master',
+                url: 'https://github.com/elhadji7/collegespace.git'
             }
         }
-        
+
         stage('Install Dependencies') {
             steps {
                 sh 'composer install'

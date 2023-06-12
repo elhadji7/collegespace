@@ -21,7 +21,7 @@ pipeline {
         } 
         stage('Run Ansible Playbook') {
             steps {
-              //  sh 'ansible-playbook /home/user/ansible/phpdeployment.yml'
+                sh 'ansible-playbook /home/user/ansible/phpdeployment.yml'
             }
         }
     }

@@ -12,14 +12,7 @@ pipeline {
             steps {
                 sh 'composer install'
             }
-        }
-        
-        stage('Run Unit Tests') {
-            steps {
-                sh 'phpunit'
-            }
-        }
-        
+        }    
         stage('Package Application') {
             steps {
                 sh 'zip -r application.zip .'

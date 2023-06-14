@@ -83,7 +83,7 @@
 									Check out the latest updates from admins without any hassle.
 								</td>
 								<td width="100">
-									Find the previous year papers.
+									Find  previous year papers.
 								</td>
 							</tr>
 							</table>

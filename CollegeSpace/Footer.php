@@ -4,7 +4,7 @@
 		<div class="row mt-3">
 			<div class="col-md-4">
 			<h4>About us</h4>
-			<p class="text-justify">CollegeSpace is the Academic Portal. It was started out by Jaspreet Singh with an aim to provide a holistic solution to all student needs, those that are encountered during these four crucial years of college. In short - We aim to make the life of every Student simpler & turn these four years into a smoother ride!</p>
+			<p class="text-justify">CollegeSpace is an Academic Portal. It was started out by Jaspreet Singh with an aim to provide a holistic solution to all student needs, those that are encountered during these four crucial years of college. In short - We aim to make the life of every Student simpler & turn these four years into a smoother ride!</p>
 			<p>Copyright © 2016 CollegeSpace</p>
 		</div>
 		<div class="col-md-4">
